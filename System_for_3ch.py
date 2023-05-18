@@ -18,55 +18,55 @@ for i in range(len(ch3.bg_sdvig)):
         else: continue
     
 # Отображение результата сложения I, II, III четвертей
-if len(ch3.check_new_1_1)>0:
-    if len(ch3.check_new_1_1)==8 and Counter(ch3.B)!=Counter(ch3.check_new_1_1):
+if len(ch3.check_new_1_2_3)>0:
+    if len(ch3.check_new_1_2_3)==8 and Counter(ch3.B)!=Counter(ch3.check_new_1_2_3):
         for j in range(4):
-            x = ch3.check_new_1_1[i]
-            y = ch3.check_new_1_1[i+1]
+            x = ch3.check_new_1_2_3[i]
+            y = ch3.check_new_1_2_3[i+1]
             ax.plot(x,y,'o', color='r')
-    elif len(ch3.check_new_1_1)==128 and Counter(ch3.B)!=Counter(ch3.check_new_1_1): 
+    elif len(ch3.check_new_1_2_3)==128 and Counter(ch3.B)!=Counter(ch3.check_new_1_2_3): 
         for i in range(0,128,2):
-            x = ch3.check_new_1_1[i]
-            y = ch3.check_new_1_1[i+1] 
+            x = ch3.check_new_1_2_3[i]
+            y = ch3.check_new_1_2_3[i+1] 
             ax.plot(x,y,'o', color='r')
 else: pass
 # Отображение результата сложения I, II, IV четвертей
-if len(ch3.check_new_1_2)>0:
-    if len(ch3.check_new_1_2)==8 and Counter(ch3.B)!=Counter(ch3.check_new_1_2):
+if len(ch3.check_new_1_2_4)>0:
+    if len(ch3.check_new_1_2_4)==8 and Counter(ch3.B)!=Counter(ch3.check_new_1_2_4):
         for j in range(4):
-            x = ch3.check_new_1_2[i]
-            y = ch3.check_new_1_2[i+1]
+            x = ch3.check_new_1_2_4[i]
+            y = ch3.check_new_1_2_4[i+1]
             ax.plot(x,y,'o', color='k')
-    elif len(ch3.check_new_1_2)==128 and Counter(ch3.B)!=Counter(ch3.check_new_1_2): 
+    elif len(ch3.check_new_1_2_4)==128 and Counter(ch3.B)!=Counter(ch3.check_new_1_2_4): 
         for i in range(0,128,2):
-            x = ch3.check_new_1_2[i]
-            y = ch3.check_new_1_2[i+1] 
+            x = ch3.check_new_1_2_4[i]
+            y = ch3.check_new_1_2_4[i+1] 
             ax.plot(x,y,'o', color='k')
 else: pass
 # Отображение результата сложения I, III, IV четвертей
-if len(ch3.check_new_1_3)>0:
-    if len(ch3.check_new_1_3)==8 and Counter(ch3.B)!=Counter(ch3.check_new_1_3):
+if len(ch3.check_new_1_3_4)>0:
+    if len(ch3.check_new_1_3_4)==8 and Counter(ch3.B)!=Counter(ch3.check_new_1_3_4):
         for j in range(4):
-            x = ch3.check_new_1_3[i]
-            y = ch3.check_new_1_3[i+1]
+            x = ch3.check_new_1_3_4[i]
+            y = ch3.check_new_1_3_4[i+1]
             ax.plot(x,y,'o', color='y')
-    elif len(ch3.check_new_1_3)==128 and Counter(ch3.B)!=Counter(ch3.check_new_1_3): 
+    elif len(ch3.check_new_1_3_4)==128 and Counter(ch3.B)!=Counter(ch3.check_new_1_3_4): 
         for i in range(0,128,2):
-            x = ch3.check_new_1_3[i]
-            y = ch3.check_new_1_3[i+1] 
+            x = ch3.check_new_1_3_4[i]
+            y = ch3.check_new_1_3_4[i+1] 
             ax.plot(x,y,'o', color='y')
 else: pass
 # Отображение результата сложения II, III, IV четвертей
-if len(ch3.check_new_1_4)>0:
-    if len(ch3.check_new_1_4)==8 and Counter(ch3.B)!=Counter(ch3.check_new_1_4):
+if len(ch3.check_new_2_3_4)>0:
+    if len(ch3.check_new_2_3_4)==8 and Counter(ch3.B)!=Counter(ch3.check_new_2_3_4):
         for j in range(4):
-            x = ch3.check_new_1_4[i]
-            y = ch3.check_new_1_4[i+1]
+            x = ch3.check_new_2_3_4[i]
+            y = ch3.check_new_2_3_4[i+1]
             ax.plot(x,y,'o', color='m')
-    elif len(ch3.check_new_1_4)==128 and Counter(ch3.B)!=Counter(ch3.check_new_1_4): 
+    elif len(ch3.check_new_2_3_4)==128 and Counter(ch3.B)!=Counter(ch3.check_new_2_3_4): 
         for i in range(0,128,2):
-            x = ch3.check_new_1_4[i]
-            y = ch3.check_new_1_4[i+1] 
+            x = ch3.check_new_2_3_4[i]
+            y = ch3.check_new_2_3_4[i+1] 
             ax.plot(x,y,'o', color='m')
 else: pass
 
